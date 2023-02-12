@@ -73,7 +73,9 @@ static const struct arg args[] = {
 	{ ram_total,     "%s ",          NULL },
         { battery_state, "🔋%s",         "BAT0" },
         { battery_perc,  "%s%% ",        "BAT0" },
-        { run_command,   "🔉%s%% ",      "/bin/sh -c \"amixer get Master | tail -n1 | grep -Po '\\[\\K[^%]*' | head -n1\"" },
-	{ keymap,        "⌨️ %s ",         NULL },
-	{ datetime,      "%s",           "%d/%m/%Y %H:%M" },
+        { run_command,   "%s ",          "/bin/sh -c sb-volume.sh" },
+	{ keymap,        "⌨️ %s ",        NULL },
+	{ wifi_perc,     "🛜 %s%% ",     "wlp2s0" },
+	{ wifi_essid,    "%s ",          "wlp2s0" },
+	{ datetime,      "🗓️ %s",        "%d/%m/%Y %H:%M" },
 };
