@@ -1,6 +1,6 @@
 Custom build of slstatus
 ============================
-WIP
+This build fetch volume percentage from alsa and also display [off] or [on] to know if the sound is muted or not
 
 
 Features

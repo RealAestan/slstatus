@@ -73,7 +73,7 @@ static const struct arg args[] = {
 	{ ram_total,     "%s ",          NULL },
         { battery_state, "🔋%s",         "BAT0" },
         { battery_perc,  "%s%% ",        "BAT0" },
-        { run_command,   "%s ",          "/bin/sh -c sb-volume.sh" },
+	{ vol_perc, "🔉%s%% ", "Master"},
 	{ keymap,        "⌨️ %s ",        NULL },
 	{ wifi_perc,     "🛜 %s%% ",     "wlp2s0" },
 	{ wifi_essid,    "%s ",          "wlp2s0" },
